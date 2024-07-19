@@ -9,13 +9,16 @@ class Main
         // System.out.println(zeus.getNombre());
         // zeus.ladrar();
 
-        Perro suri = new Perro("Suri", "Labrador");
-        System.out.println(suri.getNombre());
-        System.out.println(suri.getRaza());
+        Perro perro1 = new Perro("Suri", "Labrador");
+        // System.out.println(perro1.getNombre());
+        // System.out.println(perro1.getRaza());
 
-        Perro zeus = new Perro("Zeus", "Frenchie");
-        System.out.println(zeus.getNombre());
-        System.out.println(zeus.getRaza());
+        Perro perro2 = new Perro("Zeus", "Frenchie");
+        // System.out.println(zeus.getNombre());
+        // System.out.println(zeus.getRaza());
+
+        System.out.println(perro1);
+        System.out.println(perro2);
 
     }
 }

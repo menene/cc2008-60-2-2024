@@ -30,4 +30,9 @@ class Perro
     {
         System.out.println("Woof Woof");
     }
+
+    public String toString()
+    {
+        return "Nombre: " + this.nombre + " Raza: " + this.raza + " Edad: " + this.edad + " Color: " + this.color; 
+    }
 }
